@@ -8,14 +8,7 @@
 // 4.Null => null
 // 5.Undefined => undefined
 // 6.Objects => { }
-// 7. Arrays => [ ]
-
-//variable Types
-//1. let
-//2. var
-//3.  const
-
-// let name = "Dwash"; //string
+//  tring
 // var address = "kathmandu"; //string
 // const post = "frontend"; //string
 // console.log(name);
@@ -25,7 +18,7 @@
 //Number
 // ===========================
 
-// let num1 = 10; //Number
+let num1 = 10; //Number
 // let num2 = 30; //Number
 // console.log(num1);
 // console.log(num2);
@@ -40,14 +33,68 @@
 
 //Object
 
-let object = {
-  name: "Dwash",
-  address: "ktm",
-  contact: 98000000,
-  boolean: true,
-  post: "frontend",
-  Null: null,
-  job: undefined,
-};
+// let a = {
+//   // keys :values
+//   name: "Dwash",
+//   address: "ktm",
+//   contact: 98000000,
+//   boolean: true,
+//   post: "frontend",
+//   Null: null,
+//   job: undefined,
+//   number: 20,
+// };
+// // console.log(a.contact);
+//
 
-console.log(object);
+// Write an Object with the three keys and values and print separetly...
+
+// for example;
+
+// {companyName:'Chandragiri',
+// location:'ktm'}
+
+// >>'Chandragiri'
+// >>'ktm'
+// const company = {
+//   location: "Kalimati",
+//   name: "Institute",
+// };
+
+// console.log(company.name);
+// console.log("======================");
+// console.log(company.location);
+
+//Object
+// let object = { name: "Kantipur" ,contact:980000};
+// console.log(object);
+
+//Array
+// let array = ["Kantipur",200,"kalimati"];
+// console.log(array);
+
+//Array
+
+let a = [
+  {
+    name: "Dwash",
+  },
+  {
+    address: "KTM",
+  },
+];
+console.log(a);
+
+
+//Accessing the keys and values of an Object 
+// using ; 
+// Object.keys()  and Object.values()
+
+//===========================================================
+
+// Object and Arrays
+
+//1. Object and Arrays are the collections of Datas,
+//2. Object requires key and value as a couple,
+//3. Array contains all data  types including Objects,
+
