@@ -75,19 +75,18 @@ let num1 = 10; //Number
 
 //Array
 
-let a = [
-  {
-    name: "Dwash",
-  },
-  {
-    address: "KTM",
-  },
-];
-console.log(a);
+// let a = [
+//   {
+//     name: "Dwash",
+//   },
+//   {
+//     address: "KTM",
+//   },
+// ];
+// console.log(a);
 
-
-//Accessing the keys and values of an Object 
-// using ; 
+//Accessing the keys and values of an Object
+// using ;
 // Object.keys()  and Object.values()
 
 //===========================================================
@@ -98,3 +97,62 @@ console.log(a);
 //2. Object requires key and value as a couple,
 //3. Array contains all data  types including Objects,
 
+// Today topic
+// Array indexing...............
+
+let indexing = ["array1", "array2", "array3"];
+
+console.log(indexing[0]);
+console.log(indexing[1]);
+console.log(indexing[2]);
+
+//accessing the value of object..........
+
+// let b={
+//   name:'Dwas',
+//   address:'ktm'
+// }
+
+// console.log(b.name)
+
+//Mixing both indexing of Array and Object.............
+
+// let a = [
+//   {
+//     firstName: "dwash",
+//     lastName: "akjcac",
+//   },
+// ];
+// console.log(a[0].firstName);
+
+//Normal Indexing of an Array.................
+
+// let a=["dwas","karma","kantipur","kalimati"]
+// console.log(a[3])
+
+
+let b = [
+  { firstName: "Dwas", lastname: "karma" },
+  { firstName: "Suresh", lastname: "Rokaya" },
+];
+console.log(b[1].lastname);
+
+//object inside Array and accessing the value of object...
+
+let arr = [
+  { name: "DwasKarma", address: "ktm" },
+  { name: "Suresh", address: "ktm" },
+  { name: "kantipur", address: "kalimati" },
+];
+
+//accessing the information of Dwash
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+
+//accessing individual name..
+console.log(arr[0].name);
+console.log(arr[1].name);
+
+//getting access of address inside object...
+console.log(arr[1].address);
