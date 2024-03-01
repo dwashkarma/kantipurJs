@@ -55,14 +55,14 @@
 //   alert ("Do you want to logout?");
 // }
 
-let arr = ["karma", "kantipur", "smthg"];
-console.log(arr);
-console.log(arr.pop());
+// let arr = ["karma", "kantipur", "smthg"];
+// console.log(arr);
+// console.log(arr.pop());
 
-console.log(arr.push("kxa"));
+// console.log(arr.push("kxa"));
 
-console.log(arr.shift());
-console.log(arr);
+// console.log(arr.shift());
+// console.log(arr);
 
 //length slice pop push shift unshift to String join
 
@@ -74,11 +74,24 @@ console.log(arr);
 // console.log(arr2);
 // console.log(arr2.toString());
 
-let array = ["c", "a", "z", "b"];
+// let array = ["c", "a", "z", "b"];
 
-console.log(array.sort());
+// console.log(array.sort());
+// console.log(array.join(0));
+// console.log(array);
 
-let a = Math.random() * 100;
-let b = Math.floor(10.65460)
-console.log(b);
-console.log(a);
+// let b = Math.floor(10.6546);
+// console.log(b);
+
+let user = "asjcbak";
+if (user == "kanxa") {
+  console.log("The user is kanxa");
+} else if (user == "Suresh") {
+  console.log("the user is suresh");
+} else if (user == "samir") {
+  console.log("the user is samir");
+} else if (user == "neha") {
+  console.log("the user is neha");
+} else {
+  console.log("the user is undefined");
+}
